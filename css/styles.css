@@ -1,0 +1,91 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body{
+  font-family: "Roboto", "Arial", sans-serif;
+  background-color: #55557e;
+}
+.container{
+	max-width: 900px;
+	margin: 0 auto;
+}
+.nav{
+	margin: 95px auto 0;
+}
+.nav-list{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	padding: 0;
+	list-style-type: none;
+}
+.nav-item{
+	background-color: rgba(0,0,0,0.3);
+}
+.nav-item a{
+	display: inline-block;
+	padding: 15px 22px;
+	opacity: 0.8;
+}
+.nav-item:hover{
+	background-color: rgba(0,0,0,0.5);
+}
+.active{
+	position: relative;
+	transform: scale(1.3);
+	background-color: #252525;
+}
+.active:hover{
+	background-color: #252525;
+}
+.section{
+	width: 270px;
+	margin: 0 auto;
+}
+.header{
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	padding: 20px 15px;
+	background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("../img/food.jpg");
+	background-position: center center;
+	background-size: cover ;
+}
+.heading{
+	margin: 50px 0 5px;
+	color: #fff;
+}
+.location{
+	margin: 0;
+	font-size: 12px;
+	color: #fff;
+}
+.main-list{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	background-color: #fff;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.main-item{
+	display: flex;
+	justify-content: space-between;
+	padding: 18px;
+	border-top: 1px solid #ccc;
+	color: #aaa;
+	font-size: 15px;
+}
+.main-item p{
+	margin: 0;
+}
+.main-item:first-child{
+	border-top: none;
+}
+.main-item:hover{
+	background-color: rgba(0,0,0,0.1);
+}
